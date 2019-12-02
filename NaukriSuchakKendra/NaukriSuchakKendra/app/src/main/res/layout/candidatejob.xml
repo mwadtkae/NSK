@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#575756"
+                    android:id="@+id/en"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="civil engineering"
+                    android:textSize="17sp"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="end"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="15dp"
+                        android:layout_height="10dp"
+                        android:tint="#575756"
+                        android:src="@drawable/ic_access_time_black_24dp" />
+
+                    <TextView
+                        android:textColor="#575756"
+                        android:fontFamily="@font/sansationregular"
+                        android:id="@+id/dan"
+                        android:text="1 day ago"
+                        android:textSize="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#575756"
+                    android:src="@drawable/briefcase" />
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textColor="#575756"
+                    android:id="@+id/jn"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="0 to 6 months"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#575756"
+                    android:src="@drawable/wallet" />
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textColor="#575756"
+                    android:id="@+id/minn"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="12000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:textColor="#575756"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" - "
+                    android:gravity="center"
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:textColor="#575756"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/maxn"
+                    android:gravity="center"
+                    android:text="16000"
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#575756"
+                    android:src="@drawable/ic_location_on_black_24dp" />
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textColor="#575756"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/dn"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:text="PUNE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:textColor="#575756"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" , "
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:textColor="#575756"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/tn"
+                    android:textSize="11sp"
+                    android:text="HAVELI"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#575756"
+                    android:src="@drawable/briefcas_edit_outline" />
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="0dp" />
+                    <TextView
+                        android:textColor="#575756"
+                        android:fontFamily="@font/sansationregular"
+                        android:id="@+id/sk"
+                        android:textSize="12sp"
+                        android:text="PUNE"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/stamp"
+                android:textColor="#009f63"
+                android:fontFamily="@font/vtksmadalena"
+                android:text="APPLIED"
+                android:textStyle="bold"
+                android:alpha="0.3"
+                android:textSize="55sp"
+                android:gravity="center"
+                android:rotation="335"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

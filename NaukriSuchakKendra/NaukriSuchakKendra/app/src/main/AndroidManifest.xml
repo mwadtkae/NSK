@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naukri.naukrisuchakkendra">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Candidate.dashboard">
+
+        </activity>
+        <activity android:name=".Candidate.profilecd"
+            android:theme="@style/ChipTheme">
+
+                  </activity>
+        <activity
+            android:name=".Candidate.candidatelogin"
+            android:theme="@style/APPNobar"></activity>
+        <activity
+            android:name=".Candidate.Detailsjob"
+            android:theme="@style/APPNobar" />
+        <activity
+            android:name=".Candidate.Recomandjobs"
+            android:theme="@style/APPNobar" >
+
+
+        </activity>
+        <activity
+            android:name=".Mainboard"
+            android:theme="@style/APPNobar" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Candidate.Profilecn" >
+
+
+        </activity>
+        <activity
+            android:name=".BD.Login"
+            android:parentActivityName=".BD.Login"
+            android:theme="@style/APPNobar" />
+        <activity
+            android:name=".BD.viewemp"
+            android:parentActivityName=".BD.MainActivity"
+            android:theme="@style/APPNobar" />
+        <activity
+            android:name=".BD.viewjob"
+            android:parentActivityName=".BD.MainActivity"
+            android:theme="@style/APPNobar" />
+        <activity
+            android:name=".BD.Addjob"
+            android:parentActivityName=".BD.MainActivity"
+            android:theme="@style/APPNobar" />
+        <activity
+            android:name=".BD.Addemp"
+            android:parentActivityName=".BD.MainActivity"
+            android:theme="@style/APPNobar" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".BD.MainActivity"
+            android:theme="@style/APPNobar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:layout_width="20dp"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/ic_person_black_24dp" />
+            <TextView
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="@font/sansationregular"
+                android:text="EMPLOYER NAME"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                android:textColor="#fff"
+                android:fontFamily="@font/sansationregular"
+                android:id="@+id/en"
+                android:text="Akash kadam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/briefcase" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="JOB TITLE"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/jn"
+                    android:text="Graphic Designer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/wallet" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="SALARY"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/minn"
+                    android:text="12000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" - "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/maxn"
+                    android:text="16000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/account_plus" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="OPENING"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/on"
+                    android:text="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/ic_location_on_black_24dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="TALUKA"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/tn"
+                    android:text="HAVELI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/map_legend" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="DISTRICT"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/dn"
+                    android:text="PUNE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/map" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="STATE"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/sn"
+                    android:text="MAHARASHTRA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/school" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="QUALIFICATION"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/qn"
+                    android:text="10th Pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:tint="#fff"
+                    android:src="@drawable/format_list_numbered" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="TOTAL JOB POST"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/exn"
+                    android:text="30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="15dp"
+                    android:layout_height="10dp"
+                    android:tint="#fff"
+                    android:src="@drawable/ic_access_time_black_24dp" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/dan"
+                    android:text="1 day ago"
+                    android:textSize="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="5dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

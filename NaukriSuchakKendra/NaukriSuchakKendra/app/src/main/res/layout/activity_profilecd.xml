@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toolback"
+    tools:context="com.naukri.naukrisuchakkendra.Candidate.profilecd">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:background="@drawable/toolback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/shape_circle"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="20"/>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/image"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/photo_female_5"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="0" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:tint="@android:color/white"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="100dp"
+                app:fabCustomSize="40dp"
+                app:maxImageSize="20dp"
+                android:layout_gravity="center_horizontal"
+                app:backgroundTint="@color/putple"
+                app:rippleColor="@android:color/white"
+                android:src="@drawable/ic_photo_camera"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Julianna Carter"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:textColor="@color/White" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:tint="#fff"
+                android:src="@drawable/school" />
+           <View
+                android:layout_width="2dp"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:id="@+id/pq"
+                android:layout_width="wrap_content"
+                android:text="Qualification "
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:fontFamily="@font/sansationregular"
+                android:backgroundTint="@android:color/transparent"
+                android:textColor="#fff"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="@font/sansationregular"
+            android:gravity="start"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:text="JOB CATEGORY" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"/>
+    <GridView
+
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/sansationregular"
+                android:gravity="start"
+                android:textColor="#000"
+                android:textSize="14dp"
+                android:text="DESIRED JOB" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/logodash" />
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="0dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="@font/sansationregular"
+        android:text="STATES"
+        android:textSize="12sp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="@font/sansationregular"
+        android:text=" :  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:fontFamily="@font/sansationregular"
+        android:id="@+id/ps"
+        android:text=""
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text="DISTRICT"
+                    android:layout_width="70dp"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/sansationregular"
+                    android:text=" :  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:fontFamily="@font/sansationregular"
+                    android:id="@+id/pd"
+                    android:text=""
+                    android:textSize="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:textStyle="bold"
+                        android:fontFamily="@font/sansationregular"
+                        android:text="PHONE NO"
+                        android:textSize="12sp"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:fontFamily="@font/sansationregular"
+                        android:text=" :  "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:fontFamily="@font/sansationregular"
+                        android:id="@+id/pp"
+                        android:text=""
+                        android:textSize="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:fontFamily="@font/sansationregular"
+                android:gravity="start"
+                android:textSize="15dp"
+                android:text="SKILLS" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+           <com.google.android.material.chip.ChipGroup
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.google.android.material.chip.ChipGroup>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="10dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
